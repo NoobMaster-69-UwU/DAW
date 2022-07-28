@@ -1,5 +1,6 @@
 var matriz = ['Carlos', ' Pepe', ' Jose ' ];
 
+document.write("<div>");
 
 document.write('<h2> Uso de push()</h2>');
 
@@ -16,3 +17,5 @@ document.write('<h4>Arreglo normal: '+ matriz + '</h4>');
 document.write('<h4> Ahora utilizamos la funcion matriz.pop()</h4>');
 
 document.write('<h4>Nos muestra que opcion se eliminara que seria: ' + matriz.pop() + ', por lo cual el arreglo termina asi ' + matriz +  '</h4>');
+
+document.write("</div>");

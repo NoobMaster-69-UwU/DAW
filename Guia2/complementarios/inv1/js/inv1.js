@@ -1,5 +1,7 @@
 var num = prompt("Por favor digite un numero");
 
+document.write("<div>");
+
 document.write("<h2>Math.abs()</h2>");
 document.write("<p>Retorna el valor absoluto de un número<br>Ejemplo aplicado:</p>");
 
@@ -42,3 +44,5 @@ document.write("<p>Devuelve un número de coma flotante pseudo-aleatorio, compre
 
 
 document.write(Math.random(num));
+
+document.write("</div>");
