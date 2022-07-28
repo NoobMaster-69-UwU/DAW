@@ -4,46 +4,48 @@
 	<title>Calculadora</title>
 	<link rel="stylesheet" type="text/css" href="css/calculadora.css">
 </head>
-<body>
+<body onload="init();">
 
 	<div class="cal">
-		<div class="textos">
-			<div class="resp"></div>
-			<div class="resp"></div>
+		<div class="textos" id="resultado">
+			
 		</div>
 		<div class="btn">
 			<div class="columna">
-				<button>7</button>
-				<button>4</button>
-				<button>1</button>
-				<button>0</button>
+				<button id="siete">7</button>
+				<button id="cuatro">4</button>
+				<button id="uno">1</button>
+				<button id="cero">0</button>
 			</div>
 			<div class="columna">
-				<button>8</button>
-				<button>5</button>
-				<button>2</button>
-				<button>.</button>
+				<button id="ocho">8</button>
+				<button id="cinco">5</button>
+				<button id="dos">2</button>
+				<button id="punto">.</button>
 				
 			</div>
 			<div class="columna">
-				<button>9</button>
-				<button>6</button>
-				<button>3</button>
-				<button>=</button>
+				<button id="nueve">9</button>
+				<button id="seis">6</button>
+				<button id="tres">3</button>
+				<button id="igual">=</button>
 			</div>
-			<div class="columna">
-				<button>*</button>
-				<button>/</button>
-				<button>+</button>
-				<button>-</button>
+			<div class="columnas" class="extra">
+				<button id="multiplicacion">*</button>
+				<button id="division">/</button>
+				<button id="suma">+</button>
+				<button id="resta">-</button>
 				
 			</div>
-			<div class="columna">
-				
+			<div class="columnas" class="extra">
+				<button id="reset">AC</button>
+				<button >Raiz</button>
+				<button >DEL</button>
+				<button >w</button>
 			</div>
 		</div>
 
 	</div>
-
+<script src="js/calculadora.js"></script>
 </body>
 </html>

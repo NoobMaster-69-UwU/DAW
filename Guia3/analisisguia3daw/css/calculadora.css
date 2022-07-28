@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 .columna{
 display: flex;
 flex-direction: column;
@@ -7,6 +9,11 @@ width: 20%;
 
 .columna button{
 	padding: 40px 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	background-color: #2d3033;
+	border: 1px solid;
+	color: white;
 }
 
 .btn{
@@ -15,13 +22,34 @@ width: 20%;
 }
 
 .cal{
-	width: 50%;
+	width: 40%;
 	margin: auto;
 }
 
-.resp{
+
+.textos{
 	border: 3px solid #fff;
 	border-collapse: collapse;
-	padding: 10px;
-	background-color: blue;
+	padding: 40px;
+	background-color: #202124;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	color: #174ea6;
+
 }
+.columnas{
+display: flex;
+flex-direction: column;
+width: 20%;
+
+}
+
+.columnas button{
+	padding: 40px 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	background-color: black;
+	border: 1px solid;
+	color: white;
+}
+
